@@ -3,17 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/dist/css/reset.css">
   <link rel="stylesheet" href="/dist/css/main.css">
   <title>Landing Page Project</title>
 </head>
 <body>
   <nav>
     <div class="nav_container">
-      <div class="logo">Pofex.</div>
+      <div class="logo">Profex.</div>
         <ul class="nav_bar">
           <li><a href="">Service</a></li>
           <li><a href="">Projects</a></li>
-          <li><a href="">Workflow</a></li>
+          <li class="nav_dropdown">
+            <a href="">Workflow <i class="fa fa-chevron-down"></i></a>
+            <div class="nav_dropdown__options">
+              <a href="#">Dashboard</a>
+              <a href="#">Setting</a>
+              <a href="#">Logout</a>
+            </div>
+          </li>
           <li><a href="">Resources</a></li>
         </ul>
       <div class="nav_btns">
