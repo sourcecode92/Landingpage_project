@@ -1,34 +1,66 @@
 body {
   background: white; }
-  body .nav_container {
-    display: flex;
-    justify-content: space-between; }
-  body .logo {
-    padding: 20px 20px;
-    font-size: 1.5rem;
-    font-weight: bolder; }
-  body .nav_bar {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 30px 30px; }
-    body .nav_bar .nav_dropdown {
-      display: inline-block;
-      position: relative; }
-      body .nav_bar .nav_dropdown__options {
-        display: none;
-        position: absolute;
-        overflow: auto; }
-    body .nav_bar .nav_dropdown:hover .nav_dropdown__options {
-      display: block; }
-    body .nav_bar li {
-      list-style: none; }
-      body .nav_bar li a {
-        text-decoration: none;
-        color: black; }
-  body .nav_btns {
-    padding: 20px 20px; }
-    body .nav_btns button {
-      height: 50px;
-      width: 100px;
-      border-radius: 50px; }
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo a {
+  color: black;
+  padding: 40px 40px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-decoration: none; }
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px; }
+
+.nav_bar li {
+  list-style: none; }
+
+.nav_link {
+  text-decoration: none;
+  color: black; }
+  .nav_link i {
+    font-size: .6rem;
+    margin-left: 2px;
+    margin-right: 0px; }
+
+.nav_dropdown {
+  display: inline-block;
+  position: relative; }
+
+.nav_dropdown:hover .nav_dropdown__options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; }
+
+.nav_dropdown__options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  margin: 10px 0px; }
+  .nav_dropdown__options .nav_dropdown__option {
+    text-decoration: none;
+    color: black; }
+
+.nav_btns {
+  padding: 20px 20px; }
+  .nav_btns button {
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px black solid;
+    cursor: pointer; }
+
+.btn_light {
+  background: white;
+  color: black; }
+
+.btn_dark {
+  background: black;
+  color: white; }
