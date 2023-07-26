@@ -64,3 +64,45 @@ body {
 .btn_dark {
   background: black;
   color: white; }
+
+.landing_content {
+  display: flex; }
+
+.left_landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100vh; }
+
+.call_to h1 {
+  font-size: 5rem;
+  margin: 80px;
+  margin-bottom: 0px;
+  padding: 10px 40px; }
+
+.call_to p {
+  margin: 0px 80px 20px 80px;
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  color: grey; }
+
+.landing_stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 40px;
+  padding: 20px 40px; }
+  .landing_stats .stat {
+    margin: 20px;
+    padding: 20px; }
+    .landing_stats .stat h1 {
+      font-size: 2rem;
+      font-weight: 500; }
+    .landing_stats .stat h3 {
+      margin-top: 10px;
+      color: grey; }
+
+.right_landing {
+  width: 50%;
+  height: 100vh; }
