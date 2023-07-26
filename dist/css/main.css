@@ -26,7 +26,7 @@ body {
   text-decoration: none;
   color: black; }
   .nav_link i {
-    font-size: .6rem;
+    font-size: .8rem;
     margin-left: 2px;
     margin-right: 0px; }
 
@@ -49,10 +49,11 @@ body {
     color: black; }
 
 .nav_btns {
-  padding: 20px 20px; }
+  padding: 20px 40px 20px 0px; }
   .nav_btns button {
     height: 50px;
     width: 100px;
+    margin: 0px 5px 0px 5px;
     border-radius: 50px;
     border: 2px black solid;
     cursor: pointer; }
@@ -66,14 +67,14 @@ body {
   color: white; }
 
 .landing_content {
-  display: flex; }
+  display: flex;
+  height: 89vh; }
 
 .left_landing {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
-  height: 100vh; }
+  width: 50%; }
 
 .call_to h1 {
   font-size: 5rem;
@@ -86,6 +87,25 @@ body {
   padding: 20px 40px;
   font-size: 1.5rem;
   color: grey; }
+
+input {
+  width: 480px;
+  height: 54px;
+  border: 2px solid black;
+  border-radius: 50px; }
+
+form {
+  position: relative; }
+  form .email_btn {
+    position: absolute;
+    left: 336px;
+    top: 2px;
+    height: 56px;
+    width: 150px;
+    border-radius: 50px;
+    background: plum;
+    border-style: none;
+    cursor: pointer; }
 
 .landing_stats {
   display: flex;
@@ -106,3 +126,17 @@ body {
 .right_landing {
   width: 50%;
   height: 100vh; }
+
+.learn {
+  display: flex;
+  flex-direction: column; }
+
+.top_half {
+  height: 50vh;
+  width: 100%;
+  background: #84f9ed; }
+
+.bottom_half {
+  height: 50vh;
+  width: 100%;
+  color: white; }
