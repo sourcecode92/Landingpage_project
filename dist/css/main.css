@@ -128,15 +128,31 @@ form {
   height: 100vh; }
 
 .learn {
+  position: relative;
   display: flex;
   flex-direction: column; }
 
 .top_half {
+  text-align: center;
   height: 50vh;
   width: 100%;
   background: #84f9ed; }
+  .top_half h3 {
+    font-size: 1.2rem;
+    color: grey; }
+  .top_half h1 {
+    font-size: 3rem;
+    font-weight: 500; }
+  .top_half p {
+    color: grey;
+    font-size: 1.1rem; }
 
 .bottom_half {
   height: 50vh;
   width: 100%;
   color: white; }
+
+video {
+  position: absolute;
+  top: 250px;
+  left: 390px; }
