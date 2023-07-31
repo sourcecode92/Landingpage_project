@@ -206,9 +206,10 @@ form {
 .user_search {
   position: relative; }
   .user_search .user_search__bar {
-    background: white;
+    background: #fcfcfc;
     height: 30px;
     width: 200px;
+    border: 1px solid #f8f8f8;
     border-radius: 50px;
     margin: 10px 20px; }
     .user_search .user_search__bar .fa-magnifying-glass {
@@ -237,7 +238,7 @@ form {
       background: #59a7e9;
       text-align: center;
       padding: 5px;
-      margin: 4px; }
+      margin: 4px 0px; }
   .user_available__current .user_available__menu i {
     height: 10px;
     width: 10px;
@@ -295,7 +296,7 @@ form {
     text-align: center;
     height: 50vh;
     width: 100%;
-    background: #84f9ed; }
+    background: #f1fbf9; }
     .learn .top_half h3 {
       font-size: 1.2rem;
       color: grey;
