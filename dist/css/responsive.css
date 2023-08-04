@@ -151,6 +151,21 @@ form .email_btn{
 }
 
 @media (max-width: 580px) {
+  .nav_container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    margin: 10px 0px;
+  }
+  .nav_bar{
+    margin: 10px 0px;
+  }
+  .nav_btns{
+    padding: 0;
+    margin: 10px 0px 0px 0px;
+  }
   .right_landing .user_box{
     top: 50px;
     left: 40px;
