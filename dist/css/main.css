@@ -149,6 +149,20 @@ form {
       margin: 10px 0px 0px 80px;
       color: grey;
       font-size: 1.1rem; }
+  .right_landing .idea {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    scale: 1;
+    left: 150px;
+    top: 200px; }
+  .right_landing .gears {
+    position: absolute;
+    top: 0px;
+    left: 350px;
+    width: 300px;
+    height: 250px;
+    scale: 1; }
 
 .user_box__profile {
   display: flex;
