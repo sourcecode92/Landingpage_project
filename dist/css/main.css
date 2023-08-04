@@ -122,7 +122,7 @@ form {
   margin: 0px 40px;
   padding: 20px 40px; }
   .landing_stats .stat {
-    margin: 5px 40px 5px 40px;
+    margin: 5px 35px 5px 35px;
     padding: 10px; }
     .landing_stats .stat h1 {
       font-size: 2rem;
@@ -294,7 +294,7 @@ form {
   flex-direction: column; }
   .learn .top_half {
     text-align: center;
-    height: 50vh;
+    height: 75vh;
     width: 100%;
     background: #f1fbf9; }
     .learn .top_half h3 {
@@ -309,12 +309,12 @@ form {
       color: grey;
       font-size: 1.1rem; }
   .learn .bottom_half {
-    height: 50vh;
+    height: 25vh;
     width: 100%;
     color: white; }
     .learn .bottom_half video {
       position: absolute;
       top: 300px;
-      left: 545px;
+      left: 540px;
       width: 600px;
       height: 400px; }
