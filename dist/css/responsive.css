@@ -89,13 +89,31 @@ form .email_btn{
   .landing_content{
     display: flex;
     flex-direction: column;
-    height: 120vh;
+    height: 150vh;
   }
   .left_landing{
     width: 100%;
   }
   .right_landing{
     width: 100%;
+  }
+  .right_landing .user_box{
+    top: 50px;
+    left: 40px;
+  }
+  .right_landing .idea{
+    width: 400px;
+    height: 300px;
+    scale: 1;
+    top: 280px;
+    left: 65px;
+  }
+  .right_landing .gears{
+    width: 150px;
+    height: 150px;
+    scale: 1;
+    top: 80px;
+    left: 300px;
   }
   .learn .bottom_half .video{
     top: 300px;
